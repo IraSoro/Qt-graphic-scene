@@ -3,6 +3,8 @@
 
 #include "moveitem.h"
 
+#include <QFont>
+
 class TextElement : public MoveItem
 {
 public:

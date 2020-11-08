@@ -1,6 +1,8 @@
 #ifndef CLOCK_H
 #define CLOCK_H
 
+#include <QTime>
+#include <QTimer>
 #include "moveitem.h"
 
 class clock : public MoveItem
