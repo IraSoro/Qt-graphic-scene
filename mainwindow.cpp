@@ -94,11 +94,9 @@ void MainWindow::on_pushButton_3_clicked()      //clock
 void MainWindow::on_pushButton_4_clicked()  //удалить
 {
     QString text = ui->listWidget->currentIndex().data().toString();
-    qDebug()<<text<<endl;
 
     for(Elements* el: elements) {
         if (el->title == text){
-            qDebug()<<"yes"<<endl;
             el->item->deleteLater();
         }
     }

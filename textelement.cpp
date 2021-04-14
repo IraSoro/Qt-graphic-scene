@@ -14,8 +14,9 @@ void TextElement::paint(QPainter *painter, const QStyleOptionGraphicsItem *, QWi
 {
     QString text = "Ересь!";
 
-    painter->setPen(Qt::black);
+    painter->setPen(qRgb(255,61,181));
     QFont font("Courier", 16, QFont::DemiBold);
+
     QFontMetrics fm(font);
     int textWidth = fm.width(text);
 

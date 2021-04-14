@@ -4,6 +4,7 @@
 #include "moveitem.h"
 
 #include <QFont>
+#include <QColor>
 
 class TextElement : public MoveItem
 {
